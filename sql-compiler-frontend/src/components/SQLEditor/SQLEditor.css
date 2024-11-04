@@ -1,0 +1,42 @@
+button {
+  color: black;
+  border: none;
+  background: #ddd;
+  padding: 2px;
+  margin-top: 20px;
+  /* border-radius: 5px; */
+  cursor: pointer;
+  font-size: 17px;
+  width: 6vw;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.success-message {
+  color: green;
+  margin-top: 10px;
+}
+
+.results-table {
+  margin-top: 20px;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+.results-table th {
+  background-color: #f2f2f2;
+}
+
+.results-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}

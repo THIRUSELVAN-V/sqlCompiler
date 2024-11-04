@@ -1,0 +1,31 @@
+.testcase-container {
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    gap: 20px;
+  }
+  
+  .testcase-title {
+    font-size: 25px;
+  }
+  
+  .testcase {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 20px;
+  }
+  
+  .testcase-no {
+    font-size: 15px;
+    font-weight: 400;
+  }
+  
+  .testcase-status {
+    /* background: rgb(0, 236, 126); */
+    padding: 3px;
+    width: 100px;
+    text-align: center;
+    border-radius: 20px;
+  }
+  

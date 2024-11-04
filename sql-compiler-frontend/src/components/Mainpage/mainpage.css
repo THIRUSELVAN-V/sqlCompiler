@@ -1,0 +1,87 @@
+.main-page-container {
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+.left-side-container {
+  font-family: Arial, sans-serif;
+}
+
+.left-side-container,
+.right-side-container {
+  flex: 1;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  margin-right: 10px;
+}
+
+.right-side-container {
+  margin-left: 10px;
+}
+
+.question-container {
+  margin-bottom: 20px;
+}
+
+.question-header {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.question-description {
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.question-schema {
+  font-size: 16px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.schema-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 20px;
+}
+
+.schema-table th,
+.schema-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.schema-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.schema-table tr:hover {
+  background-color: #f1f1f1;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.results-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.results-table th,
+.results-table td {
+  border: 1px solid #ddd;
+  padding: 8px;
+}
+
+.results-table th {
+  background-color: #f2f2f2;
+  text-align: left;
+}
+
+.results-table tr:hover {
+  background-color: #f1f1f1;
+}
